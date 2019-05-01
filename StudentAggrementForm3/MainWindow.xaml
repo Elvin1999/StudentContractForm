@@ -84,12 +84,170 @@
                             Margin="5,30,0,0" >
                         
                     </TextBox>
+                    <ComboBox Width="160" Height="30" FontSize="14" FontFamily="Comic Sans MS"
+                              Background="PaleGreen" Margin="5,15,0,0"
+                              >
+                    </ComboBox>
+                    <ComboBox Width="160" Height="30" FontSize="14" FontFamily="Comic Sans MS"
+                              Background="PaleGreen" Margin="5,15,0,0"
+                              >
+                    </ComboBox>
                 </StackPanel>
             </StackPanel>
         </Grid>
 
         <Grid Grid.Row="1" Grid.Column="0" Background="SpringGreen" Margin="10" Grid.ColumnSpan="2">
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel Orientation="Vertical">
+                        <Label Width="160" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="5,10,0,0"
+                          Content="Contract NO" >
 
+                        </Label>
+                        <Label Width="160" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="5,10,0,0"
+                          Content="Date" >
+
+                        </Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical">
+                        <TextBox Width="160" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="0,10,0,0"
+                         Background="PaleGreen" >
+
+                        </TextBox>
+                        <TextBox Width="160" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="0,10,0,0"
+                         Background="PaleGreen" >
+
+                        </TextBox>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel Orientation="Vertical">
+                            <Label Width="160" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="5,10,0,0"
+                          Content="Main lesson time" >
+
+                            </Label>
+                            <Label Width="160" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="5,10,0,0"
+                          Content="MOCK" >
+
+                            </Label>
+                            <Label Width="160" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="5,10,0,0"
+                          Content="Speaking" >
+
+                            </Label>
+                            <Label Width="160" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="5,10,0,0"
+                          Content="Discrimination" >
+
+                            </Label>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical">
+                            <TextBox Width="120" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="0,10,0,0"
+                                     HorizontalAlignment="Left" Text="0"
+                         Background="PaleGreen" >
+
+                            </TextBox>
+                            <TextBox Width="120" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="0,10,0,0"
+                                     HorizontalAlignment="Left" Text="0"
+                         Background="PaleGreen" >
+
+                            </TextBox>
+                            <TextBox Width="120" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="0,10,0,0"
+                                     HorizontalAlignment="Left" Text="0"
+                         Background="PaleGreen" >
+
+                            </TextBox>
+                            <TextBox Width="120" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="0,10,0,0"
+                                     HorizontalAlignment="Left" Text="0"
+                         Background="PaleGreen" >
+
+                            </TextBox>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel Orientation="Vertical">
+                            <Label Width="160" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="5,10,0,0"
+                          Content="Can be skipped" >
+
+                            </Label>
+                            <Label Width="160" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="5,10,0,0"
+                          Content="Can be skipped" >
+
+                            </Label>
+                            <Label Width="160" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="5,10,0,0"
+                          Content="Can be skipped" >
+
+                            </Label>
+                            <Label Width="160" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="5,10,0,0"
+                          Content="Service money" >
+
+                            </Label>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical">
+                            <TextBox Width="110" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="0,10,0,0"
+                                     HorizontalAlignment="Left" Text="0"
+                         Background="PaleGreen" >
+
+                            </TextBox>
+                            <TextBox Width="110" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="0,10,0,0"
+                                     HorizontalAlignment="Left" Text="0"
+                         Background="PaleGreen" >
+
+                            </TextBox>
+                            <TextBox Width="110" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="0,10,0,0"
+                                     HorizontalAlignment="Left" Text="0"
+                         Background="PaleGreen" >
+
+                            </TextBox>
+                            <TextBox Width="110" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="0,10,0,0"
+                                     HorizontalAlignment="Left" Text="0"
+                         Background="PaleGreen" >
+
+                            </TextBox>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel Orientation="Vertical">
+                            <Label Width="140" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="5,10,0,0"
+                          Content="One lesson amount" >
+
+                            </Label>
+                            <Label Width="140" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="5,10,0,0"
+                          Content="One lesson amount" >
+
+                            </Label>
+                            <Label Width="140" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="5,10,0,0"
+                          Content="One lesson amount" >
+
+                            </Label>
+                            <Button Width="140" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="5,10,0,0"
+                                    Background="PaleGreen"
+                          Content="Submit" >
+
+                            </Button>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical">
+                            <TextBox Width="60" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="0,10,0,0"
+                                     Text="0"
+                         Background="PaleGreen" >
+
+                            </TextBox>
+                            <TextBox Width="60" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="0,10,0,0"
+                                     Text="0"
+                         Background="PaleGreen" >
+
+                            </TextBox>
+                            <TextBox Width="60" Height="30" FontSize="14" FontFamily="Comic Sans MS" Margin="0,10,0,0"
+                                     Text="0"
+                         Background="PaleGreen" >
+
+                            </TextBox>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+                
+            </StackPanel>
+            
+            
         </Grid>
      
 
